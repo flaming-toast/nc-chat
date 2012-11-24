@@ -13,6 +13,6 @@ else
 		#echo -n "$name: " > $tty ; read message
 		read message
 		echo -e "$name: $message" 
-	done |  ncat $server $port
+	done |  ncat $server $port # can use nc, netcat as well
 
 fi
