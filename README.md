@@ -6,7 +6,7 @@ Simple netcat chat server.
 
 Dependencies
 =======
-This application requires Hobbit's implementation of netcat, ncat, found here: 
+This application requires the Nmap team's implementation of netcat, ncat, found here: 
 
 http://nmap.org/ncat 
 
