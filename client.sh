@@ -7,8 +7,7 @@ else
 	port=$2
 	echo -n "Enter your name: " ; read name
 	echo "Your idenfifier will be: $name"
-	tty=$(tty)
-	echo "server running on $port..."
+	echo "Connecting to $1 on port $2"
 	while true; do
 		#echo -n "$name: " > $tty ; read message
 		read message
