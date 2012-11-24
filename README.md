@@ -7,11 +7,11 @@ Simple netcat chat server.
 Dependencies
 =======
 This application requires Hobbit's implementation of netcat, ncat, found here: 
+
 http://nmap.org/ncat 
-In particular, the server script requires ncat's connection brokering option (--broker), so that anything received 
 
-from one of the clients will be broadcasted to all other clients. In addition, the -k option is needed so that
 
+In particular, the server script requires ncat's connection brokering option (--broker), so that anything received from one of the clients will be broadcasted to all other clients. In addition, the -k option is needed so that
 the ncat server can accept multiple connections in listen mode. 
 
 
